@@ -1,0 +1,32 @@
+NET "clk" LOC = "B8"; # Bank = 0, Pin name = IP_L13P_0/GCLK8, Type = GCLK, Sch name = GCLK0
+#NET "clk1" LOC = "U9"; # Bank = 2, Pin name = IO_L13P_2/D4/GCLK14, Type = DUAL/GCLK, Sch name = GCLK1
+NET "rgb_o<7>"   LOC = "R9"; 
+NET "rgb_o<6>"   LOC = "T8"; 
+NET "rgb_o<5>"   LOC = "R8"; 
+NET "rgb_o<4>"   LOC = "N8"; 
+NET "rgb_o<3>"   LOC = "P8"; 
+NET "rgb_o<2>"   LOC = "P6"; 
+NET "rgb_o<1>" LOC = "U5"; 
+NET "rgb_o<0>"  LOC = "U4";
+NET "hs" LOC = "T4";
+NET "vs" LOC = "U3";
+
+
+NET "right_button" LOC = "D18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN0
+NET "down_button" LOC = "B18"; # Bank = 1, Pin name = IP/VREF_1, Type = VREF, Sch name = BTN1
+NET "up_button" LOC = "E18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN2
+NET "left_button" LOC = "H13"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN3
+
+NET "room0" LOC = "L15"; # Bank = 1, Pin name = IO_L09N_1/A11, Type = DUAL, Sch name = JA1
+NET "room1" LOC = "K12"; # Bank = 1, Pin name = IO_L11N_1/A9/RHCLK1, Type = RHCLK/DUAL, Sch name = JA2
+NET "room2" LOC = "L17"; # Bank = 1, Pin name = IO_L10N_1/VREF_1, Type = VREF, Sch name = JA3
+NET "room3" LOC = "M15"; # Bank = 1, Pin name = IO_L07P_1, Type = I/O, Sch name = JA4
+
+NET "fire" LOC = "K13"; # Bank = 1, Pin name = IO_L07P_1, Type = I/O, Sch name = JA4
+
+NET "enmylife<0>" LOC = "J14"; # Bank = 1, Pin name = IO_L10N_1/VREF_1, Type = VREF, Sch name = JA3
+NET "enmylife<1>" LOC = "J15"; # Bank = 1, Pin name = IO_L07P_1, Type = I/O, Sch name = JA4
+
+NET "plyrlife<0>" LOC = "P15"; # Bank = 1, Pin name = IO_L10N_1/VREF_1, Type = VREF, Sch name = JA3
+NET "plyrlife<1>" LOC = "F4"; # Bank = 1, Pin name = IO_L07P_1, Type = I/O, Sch name = JA4
+NET "plyrlife<2>" LOC = "R4"; # Bank = 1, Pin name = IO_L10N_1/VREF_1, Type = VREF, Sch name = JA3
